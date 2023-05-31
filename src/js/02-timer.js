@@ -29,7 +29,7 @@ const options = {
   },
 };
 
-class TimerCol {
+class Timer {
   constructor({ onTick }) {
     this.intervalId = null;
     this.isActive = false;
@@ -76,7 +76,7 @@ class TimerCol {
 
 flatpickr(refs.dateTimePicker, options);
 
-const TimerCol = new TimerCol({
+const timer = new Timer({
   onTick: updateCounter,
 });
 function updateCounter({ days, hours, minutes, seconds }) {
