@@ -1,7 +1,7 @@
 import flatpickr from 'flatpickr';
 import Notiflix from 'notiflix';
 import 'flatpickr/dist/flatpickr.min.css';
-
+// Завдання з зірочкою)
 const refs = {
   dateTimePicker: document.querySelector("input[type='text']"),
   startBtn: document.querySelector('button[type="button"]'),
